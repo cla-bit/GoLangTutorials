@@ -1,0 +1,54 @@
+# Tutorial 1
+
+---
+
+To indicates an executable program. The Go runtime looks for the main function within this package to start execution.
+
+That is why the "main" keyword is used as seen below:
+
+```go
+package main
+```
+
+Else, Go runtime will see it as a library package which can be imported or used by other Go developers.
+
+```go
+package mylib
+```
+
+---
+
+
+### How to comment in GO:
+
+1. Single-line comments: These start with // and extend to the end of the line.
+
+    ```go
+    // This is a single-line comment
+    ```
+2. Multi-line comments: These start with /* and end with */. They can span multiple lines.
+
+    ```go
+    /*
+    This is a multi-line comment.
+    It can span multiple lines.
+    */
+    ```
+
+---
+
+### How to write a function in GO
+
+```go
+func functionName(parameters) returnType {
+    // function body
+}
+```
+
+---
+
+### How to import a package in GO
+
+```go
+import "package/path"
+```
